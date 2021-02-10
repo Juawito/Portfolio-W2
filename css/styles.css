@@ -1,31 +1,41 @@
-main {
+body{
+    background:rgb(122, 119, 119) ;
+}
+
+header {
     font-family: 'Indie Flower', cursive;
 }
+/*container for home screen*/
 .landing {
     min-height: 100vh;
     background: url("../images/Leaf.jpg")no-repeat scroll 50% 50%;;
     background-size: cover;
-    padding: 0rem 5rem ;
 }
+/*nav container for li and logo*/
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    color:  #a30a0e;
-
+    justify-content: space-around;
+    color: #fff;
+    background:  #a30a0e ;
+    min-height: 8vh;
 }
 .nav-links {
     display: flex;
+    justify-content: space-around;
+    width: 50%;
 }
 .nav-links li {
     padding-left: 10rem;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 #Logo {
     font-family: 'Lobster Two', cursive;
     font-weight: lighter;
     font-size: 2rem;
 }
+/*text in the middle of the leaf background*/
 .big-text {
     position: absolute;
     top: 30%;
@@ -36,6 +46,7 @@ nav {
     font-size: 5rem;
     color: rgb(122, 119, 119);
 }
+/*div for the sliding animation*/
 .intro {
     background: black;
     position: fixed;
@@ -68,3 +79,32 @@ nav {
     transform: translateY(100%);
     display: inline-block;
 }
+main {
+    display:flex;
+    border: 5px solid black;
+    width: 100%;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 1.5rem;
+    flex-direction: column;
+    font-family: 'Indie Flower', cursive;
+}
+main h2 {
+    font-size: 40px;
+    height:5rem;
+    padding-bottom: 20px;
+}
+main p {
+    padding-left: 30px;
+}
+/*.About-section{
+    border-bottom: 5px solid black;
+    justify-content: center;
+}
+.Projects-section {
+   align-items: right;
+}
+.Contact-section {
+    border-bottom: 5px solid black;
+    justify-content: center;
+} trying to figure out why my list wont indent to the left.
