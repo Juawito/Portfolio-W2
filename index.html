@@ -11,21 +11,21 @@
 </head>
 <body>
     <header>
-        <section class="landing">
+        <section id="Home" class="landing">
             <nav>
             <hi id="Logo">Juawito</hi>
             <ul class="nav-links">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#Home">Home</a>
                 </li>
                 <li>
-                    <a href="#">Contact Info</a>
+                    <a href="#About">About</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#Projects">Projects</a>
                 </li>
                 <li>
-                    <a href="#">Projects</a>
+                    <a href="#Contact">Contact Info</a>
                 </li>
             </ul>
             </nav>
@@ -34,9 +34,9 @@
     </header>
     <main> <!--created the three sections that will link to the nav bar for easier navigation.
                 Still needs to be styled. also Images need to be added.-->
-       <article class="About-section">
+       <article id="About" class="About-section">
            <h2>About</h2>
-           <p>
+           <p class="about-info">
                Hello, My name is Juan Santiago if you did not already know that.
                I sometimes go by Juawito, it's a childhood nickname that stuck with me throughout the years.
                My current ocupation is sheet metal fabricating. However I love coding. I have always been fascincated by the way in which anything can be created at the touch of your fingertips.
@@ -44,23 +44,26 @@
                Her name is Camila Santiago. She is 2 years old. We live in North Carolina with her mother, Alexis.
            </p>
        </article>
-       <article class="Projects-section">
+       <article id="Projects" class="Projects-section">
            <h2>Projects</h2>
-           <ul>
+           <ul class="Project-list">
                <li id="Project-1">
-                   Project Description
+                   <img src="images/Horiseon.jpg" alt="Horiseon Website">
                </li>
                <li id="Project-2">
-                   Project Description
+                   <img src="/images/html-icon.jpg" alt="Screen with HTML icon">
                </li>
                <li id="Project-3">
-                   Project Description
+                    <img src="/images/html-icon.jpg" alt="Screen with HTML icon">
+               </li>
+               <li id="Project-4">
+                    <img src="/images/html-icon.jpg" alt="Screen with HTML icon">
                </li>
            </ul>
        </article>
-       <article class="Contact-section">
+       <article id="Contact" class="Contact-section">
            <h2>Contact Info</h2>
-           <ul>
+           <ul class="Contact-list">
                <li>
                 Phone Number: <a href="#">1800-NoNumberyet</a>
                </li>
@@ -77,13 +80,13 @@
     <div class="intro">
         <div class="intro-text">
             <h1 class="hide">
-                <span class="text">text1</span>
+                <span class="text">Hello!</span>
             </h1>
             <h1 class="hide">
-                <span class="text">text2</span>
+                <span class="text">Welcome to My</span>
             </h1>
             <h1 class="hide">
-                <span class="text">text3</span>
+                <span class="text">Fullstack Portfolio.</span>
             </h1>
         </div>
     </div>
